@@ -1,0 +1,28 @@
+name = 'Foxy Beauty'
+description = 'Foxy Beauty Custom Theme'
+core =  7.x
+
+;stylesheets
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap.extension.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/swiper.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/simplelightbox.css
+
+;region
+regions[header] = Header
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer] = Footer
+
+
+;Javascript
+scripts[] = js/jquery-2.2.4.min.js
+scripts[] = js/swiper.jquery.min.js
+scripts[] = js/global.js
+scripts[] = js/simple-lightbox.min.js
+
